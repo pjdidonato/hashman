@@ -18,7 +18,7 @@ while True:
         elif value == "Yes":
             new = input("Enter your name: ")
             usernames[name] = new
-            print("Username added: " + str(new))
+            print("New Name Added: " + str(new))
             break
     elif name == "PJ":
         print("Access Granted") 
