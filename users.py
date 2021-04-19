@@ -29,9 +29,11 @@ for guesses in range(0,3):
 while True:
     if name not in usernames.values():
         break 
+    
     if name in usernames.values():
         print('Access granted')
         break
+
     user = input('Do you want to sign in?: ')
     if user == 'Yes':
         name == input('Please enter your name: ')
